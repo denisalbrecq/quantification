@@ -20,7 +20,6 @@ def quantifier_image(image_array, niveaux):
 chemin = Path(__file__).resolve().parent
 chemin_image = chemin /  "image_004.png"  # Remplace par le nom de ton image
 niveaux_de_gris = [8, 4, 2] # Valeur des différents niveaux de gris à afficher
-image_quantifiee = []
 erreur = int(True)  # 'True' pour afficher l'erreur
 adaptive = False    # 'True' pour de la quantification adaptative
 
@@ -60,6 +59,8 @@ if erreur != 0 :
     plt.imshow(image_array-image_array, cmap="gray")
     plt.axis("off")
 
+
+image_quantifiee = []
 # Quantification
 for j in range(len(niveaux_de_gris)) :
     image_quantifiee = quantifier_image(image_array, niveaux_de_gris[j])
@@ -141,6 +142,8 @@ if adaptive :
 
     # Afficher les résultats
     plt.figure(figsize=(10, 5))
+    mng = plt.get_current_fig_manager()
+    mng.window.showMaximized()
     plt.subplot(1, 3, 1)
     plt.title("Originale")
     plt.imshow(image_array, cmap='gray')
