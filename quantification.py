@@ -1,3 +1,6 @@
+# created in December 2024
+# author : Denis Albrecq
+
 import numpy as np
 from PIL import Image
 from pathlib import Path
@@ -18,7 +21,7 @@ def quantifier_image(image_array, niveaux):
     return image_quantified
 
 chemin = Path(__file__).resolve().parent
-chemin_image = chemin /  "image_004.png"  # Remplace par le nom de ton image
+chemin_image = chemin /  "image_003.jpg"  # Remplace par le nom de ton image
 niveaux_de_gris = [8, 4, 2] # Valeur des différents niveaux de gris à afficher
 erreur = int(True)  # 'True' pour afficher l'erreur
 adaptive = False    # 'True' pour de la quantification adaptative
