@@ -8,7 +8,7 @@ Adaptive Quantization: Dynamically adjusts grayscale levels based on local varia
 Pixel Group Analysis: Extracts and displays pixel values for a defined region.
 Visualization: Displays the original image, quantized versions, and error maps side-by-side.
 
-#How to Use
+# How to Use
 Prepare the Image:
 Place your image in the script's directory.
 Update the chemin_image variable with your image name (default: image_003.jpg).
@@ -19,7 +19,7 @@ Adjust options like quantization levels (niveaux_de_gris), pixel group coordinat
 Run the Script:
 Execute the script to visualize and compare the quantized images.
 
-#Output
+# Output
 Original and quantized images (with specified grayscale levels).
 Error maps (difference between original and quantized images).
 Optionally, adaptively quantized images with average levels calculated dynamically.
