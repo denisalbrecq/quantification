@@ -24,6 +24,6 @@ Original and quantized images (with specified grayscale levels).
 Error maps (difference between original and quantized images).
 Optionally, adaptively quantized images with average levels calculated dynamically.
 
-#Explore and analyze your images with ease!
+# Explore and analyze your images with ease!
 
 created in december 2024 by Denis Albrecq
