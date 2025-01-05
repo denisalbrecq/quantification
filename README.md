@@ -1,4 +1,4 @@
-# Quantification
+# Quantization
 
 This Python script processes grayscale images to perform uniform and adaptive quantization while visualizing the results. It also includes functionality to calculate and display quantization errors, allowing for a deeper understanding of image compression techniques.
 
@@ -24,6 +24,6 @@ Original and quantized images (with specified grayscale levels).
 Error maps (difference between original and quantized images).
 Optionally, adaptively quantized images with average levels calculated dynamically.
 
-## Explore and analyze your images with ease!
+## Explore and analyze your images with ease !
 
 created in december 2024 by Denis Albrecq
